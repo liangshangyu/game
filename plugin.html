@@ -67,7 +67,7 @@ let generateConfig = function() {
 	}
 	Promise.all(promises)
 		.then(
-			reses => { 
+			reses => {
 				let promises = reses.map(res => plugin.parse(res)); 
 				Promise.all(promises).then(
 					levels => {
@@ -81,7 +81,7 @@ let generateConfig = function() {
 						config.levels = levels.map( (level, index) => {
 							level.name = "第" + (index + 1) + "关"; 
 							return level; 
-						}); 
+						});
 						document.querySelector(".config-textarea").innerHTML = JSON.stringify(config); 
 					}
 				)
@@ -91,10 +91,10 @@ let generateConfig = function() {
 
 // 添加文件
 document.querySelector(".add-file").addEventListener("click", function() {
-	let line = document.createElement("div"); 
-	line.className = 'file-line'; 
-	line.innerHTML = '<input type="file">'; 
-	document.body.insertBefore(line, this); 
+	let line = document.createElement("div");
+	line.className = 'file-line';
+	line.innerHTML = '<input type="file">';
+	document.body.insertBefore(line, this);
 })
 
 // 减少文件
