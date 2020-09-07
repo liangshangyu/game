@@ -1,0 +1,23 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "``` javascript\r let onestroke = new OneStroke(\r \t{\r \t\t// 默认的线段颜色与端点颜色\r \t\tlineColor: 0xe2e2e2, \r \t\tvertexColor: 0x6dc6c0, \r \t\tstrokeColor: 0x416275, \r \t\tactiveVertexColor: 0x6dc6c0, \r \t\tlevels: [\r \t\t\t{\r \t\t\t\tname: \"第一关\", \r \t\t\t\tlineColor: 0xe2e2e2, \r \t\t\t\tvertexColor: 0x90b34f, \r \t\t\t\tstrokeColor: 0x445624, \r \t\t\t\tactiveVertexColor: 0x90b34f, \r \t\t\t\tlines: [\r \t\t\t\t\t{\"x1\": 375, \"y1\": 366, \"x2\": 200, \"y2\": 916},\r \t\t\t\t\t{\"x1\": 200, \"y1\": 916, \"x2\": 664, \"y2\": 576}, \r \t\t\t\t\t{\"x1\": 664, \"y1\": 576, \"x2\": 88, \"y2\": 576}, \r \t\t\t\t\t{\"x1\": 88, \"y1\": 576, \"x2\": 556, \"y2\": 916}, \r \t\t\t\t\t{\"x1\": 556, \"y1\": 916, \"x2\": 375, \"y2\": 366}\r \t\t\t\t]\r \t\t\t}\r \t\t]\r \t}\r );\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangshangyu/game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangshangyu/game/issues"
+  },
+  "homepage": "https://github.com/liangshangyu/game#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-plugin-react": "^7.20.6"
+  }
+}
